@@ -1,2 +1,2 @@
-FROM tomcat:9
-COPY /var/lib/jenkins/workspace/Google-script/webapp/target/webapp.war /opt/apache-tomcat-10.0.23/webapps
+FROM tomcat:8
+COPY target/*.war /usr/local/tomcat/webapps/
