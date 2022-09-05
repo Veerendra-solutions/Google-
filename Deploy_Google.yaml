@@ -29,7 +29,7 @@ metadata:
 spec:
   selector:
     service: one
-  type: LoadBalancer
+  type: NodePort
   ports:
   - protocol: TCP
     port: 5000
